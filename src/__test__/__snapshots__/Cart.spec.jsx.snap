@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component renders correctly 1`] = `
+<div>
+  <div
+    class="mb-3 list-group"
+    data-testid="cart-item"
+  >
+    <div
+      class="list-group-item"
+    >
+      <div
+        class="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          class="p-2"
+          height="100"
+        />
+        <p>
+          title
+        </p>
+      </div>
+      <p>
+        $
+      </p>
+      <div
+        class="d-flex justify-content-between"
+      >
+        <button
+          class="remove-btn btn btn-outline-danger"
+          data-testid="remove-btn"
+          type="button"
+        >
+          <svg
+            class="align-top"
+            color="red"
+            fill="currentColor"
+            height="20"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: red;"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z"
+            />
+          </svg>
+          Remove
+        </button>
+        <div
+          class="d-flex flex-row"
+        >
+          <svg
+            color="#0d6efd"
+            fill="none"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(13, 110, 253);"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 11C7.44772 11 7 11.4477 7 12C7 12.5523 7.44772 13 8 13H16C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11H8Z"
+              fill="currentColor"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M1 5C1 2.79086 2.79086 1 5 1H19C21.2091 1 23 2.79086 23 5V19C23 21.2091 21.2091 23 19 23H5C2.79086 23 1 21.2091 1 19V5ZM5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <p />
+          <svg
+            color="#0d6efd"
+            fill="none"
+            height="25"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(13, 110, 253);"
+            viewBox="0 0 24 24"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 6C12.5523 6 13 6.44772 13 7V11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H13V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V13H7C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11H11V7C11 6.44772 11.4477 6 12 6Z"
+              fill="currentColor"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M5 22C3.34315 22 2 20.6569 2 19V5C2 3.34315 3.34315 2 5 2H19C20.6569 2 22 3.34315 22 5V19C22 20.6569 20.6569 22 19 22H5ZM4 19C4 19.5523 4.44772 20 5 20H19C19.5523 20 20 19.5523 20 19V5C20 4.44772 19.5523 4 19 4H5C4.44772 4 4 4.44772 4 5V19Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

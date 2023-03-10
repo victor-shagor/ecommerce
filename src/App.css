@@ -13,6 +13,48 @@
   }
 }
 
+
+  .price-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+
+  .cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 55%;
+  }
+  .remove-btn{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+  .price{
+    font-size: 25px;
+  }
+
+  @media screen and (max-width:768px) {
+    .product-card{
+      height: 50rem;
+    }
+    .price-cont{
+      display: block;
+    }
+    .cart-icon{
+      display: none;
+    }
+    .cart-button{
+      width: 110px
+    }
+  }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
