@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { CartContext } from '../context/cartContext';
-import CartItem from './CartItem';
 import Button from "react-bootstrap/Button";
 import ConfirmationModal from './ConfirmationModal';
+import { CartContext } from '../context/cartContext';
+import CartItem from './CartItem';
 
 
 const Cart = ({show, handleClose}) => {

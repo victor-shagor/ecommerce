@@ -1,6 +1,4 @@
 import React, { useContext } from "react";
-import NavBar from "../components/NavBar";
-import ProductCard from "../components/ProductCard";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,6 +7,8 @@ import { CartContext } from "../context/cartContext";
 import Loader from "../components/Loader";
 import ErrorToast from "../components/ErrorToast";
 import { useFetchData } from "../hooks/useFetchData";
+import NavBar from "../components/NavBar";
+import ProductCard from "../components/ProductCard";
 
 function Home() {
   const { toggleCart, showCart } = useContext(CartContext)

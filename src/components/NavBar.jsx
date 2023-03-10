@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaShoppingCart } from "react-icons/fa";
-import { CartContext } from '../context/cartContext';
 import Badge from 'react-bootstrap/Badge';
+import { CartContext } from '../context/cartContext';
 
 const NavBar = ({toggleCart}) => {
 

@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
 import { MdOutlineDeleteOutline } from "react-icons/md"
 import { CgRemoveR, CgAddR } from "react-icons/cg";
-import { CartContext } from "../context/cartContext";
 import Button from "react-bootstrap/Button";
 import ListGroup from 'react-bootstrap/ListGroup';
 import ConfirmationModal from "./ConfirmationModal";
+import { CartContext } from "../context/cartContext";
 
 const CartItem = ({ product }) => {
   const { handleIncreaseQuantity, handleDecreaseQuantity, handleRemoveCartItem } = useContext(CartContext)
